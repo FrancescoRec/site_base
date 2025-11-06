@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Firebase Site Starter</title>
+    <meta
+      name="description"
+      content="Starter landing page you can customize for any Firebase Hosting project."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="site-nav container">
+        <a href="#hero" class="site-logo">ProjectName</a>
+        <ul class="nav-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero" class="section hero">
+        <div class="container hero-content">
+          <p class="eyebrow">Firebase Hosting Starter</p>
+          <h1>Launch your next site in minutes.</h1>
+          <p class="lead">
+            Replace this copy, colors, and images to turn this template into your
+            next marketing site. Everything is wired up for Firebase Hosting out
+            of the box.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#about">Explore the layout</a>
+            <a
+              class="button ghost"
+              href="https://firebase.google.com/docs/hosting"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Firebase docs
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section split">
+        <div class="container split-content">
+          <div>
+            <h2>Bring your brand</h2>
+            <p>
+              Use this section to introduce the project you are launching. Swap
+              the placeholder text with your story, a product description, or a
+              welcome message for the client you are building for.
+            </p>
+            <ul class="checklist">
+              <li>Editable hero, features, and contact sections</li>
+              <li>Responsive layout ready for phones and desktops</li>
+              <li>Single CSS file with clear variables</li>
+              <li>Firebase CLI scripts for preview and deploy</li>
+            </ul>
+          </div>
+          <aside class="callout">
+            <h3>Quick customisation tips</h3>
+            <ol>
+              <li>Rename <code>ProjectName</code> in the header</li>
+              <li>Update the accent colours in <code>style.css</code></li>
+              <li>Add your own imagery or illustrations</li>
+              <li>Publish with <code>npm run deploy</code></li>
+            </ol>
+          </aside>
+        </div>
+      </section>
+
+      <section id="features" class="section features">
+        <div class="container">
+          <h2>Pre-built building blocks</h2>
+          <div class="feature-grid">
+            <article class="card">
+              <h3>Ready for Hosting</h3>
+              <p>
+                Default Firebase configuration is already in place. Connect a
+                project and deploy without extra setup.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Customizable Style</h3>
+              <p>
+                All colours and spacing use CSS variables so you can quickly
+                apply brand guidelines.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Accessible Defaults</h3>
+              <p>
+                Semantic HTML structure and high-contrast defaults keep the
+                template inclusive from the start.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Extendable Layout</h3>
+              <p>
+                Duplicate any section to add pricing, testimonials, or FAQs as
+                your projects grow.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div class="container contact-content">
+          <div>
+            <h2>Stay in touch</h2>
+            <p>
+              Point this form to your preferred service or replace it with a
+              calendar link, chat widget, or contact card.
+            </p>
+            <ul class="contact-list">
+              <li>
+                <span class="label">Email</span>
+                <a href="mailto:hello@example.com">hello@example.com</a>
+              </li>
+              <li>
+                <span class="label">Phone</span>
+                <a href="tel:+1234567890">+1 (234) 567-890</a>
+              </li>
+              <li>
+                <span class="label">Location</span>
+                <p>Based anywhere you need us.</p>
+              </li>
+            </ul>
+          </div>
+          <form class="contact-form" action="#" method="post">
+            <div class="field">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" placeholder="Jane Doe" />
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="jane@example.com"
+              />
+            </div>
+            <div class="field">
+              <label for="message">How can we help?</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                placeholder="Share a quick note..."
+              ></textarea>
+            </div>
+            <button class="button primary" type="submit">Send message</button>
+            <p class="form-note">Replace this form with your solution of choice.</p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p>&copy; <span data-year>2025</span> Your Organization. Built with Firebase Hosting.</p>
+        <div class="footer-links">
+          <a href="https://firebase.google.com/products/hosting" target="_blank" rel="noopener noreferrer">Learn more about Firebase Hosting</a>
+          <a href="#hero">Back to top</a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const yearEl = document.querySelector('[data-year]');
+      if (yearEl) {
+        yearEl.textContent = new Date().getFullYear();
+      }
+    </script>
+  </body>
+</html>
