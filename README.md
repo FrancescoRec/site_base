@@ -13,10 +13,10 @@ Use it as your starting point for:
 
 ## 🎁 What's Inside
 
-✅ Minimal **HTML/CSS layout** (hero, about, features, contact)
-📱 **Mobile-friendly** design with editable colors & fonts
-⚙️ **Firebase CLI scripts** for one-command deploys + local emulation
-✏️ Placeholder content & clear callouts for easy customization
+* ✅ Minimal **HTML/CSS layout** (hero, about, features, contact)
+* 📱 **Mobile-friendly** design with editable colors & fonts
+* ⚙️ **Firebase CLI scripts** for one-command deploys + local emulation
+* ✏️ Placeholder content & clear callouts for easy customization
 
 ---
 
